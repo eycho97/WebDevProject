@@ -154,13 +154,39 @@ a:hover {
 /* store info page*/
 
 #shadyside {
+    width: 75%;
+    margin: auto;
+    border: 1px dotted #ccc;
+}
+
+
+#shadyside h1{
+    float: left ;
+}
+
+#shadyside p{
     float: left;
-    width: 50%;
+}
+#shadyside iframe{
+    float: right;
 }
 
 #downtown {
+    width: 75%;
+    margin: auto;
+}
+
+#downtown h1{
     float: right;
-    width: 50%;
+}
+
+#downtown p{
+    float: right;
+    text-align: right;
+}
+
+#downtown iframe{
+    float: left;
 }
 
 /* store info page*/
