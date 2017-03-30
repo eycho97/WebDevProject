@@ -154,13 +154,17 @@ a:hover {
 /* store info page*/
 
 #shadyside {
-    float: left;
-    width: 50%;
+    margin: auto;
+    width: 60.5%;
 }
 
 #downtown {
+    margin: auto;
+    width: 60.5%;
+}
+
+#downtown h1 {
     float: right;
-    width: 50%;
 }
 
 /* store info page*/
