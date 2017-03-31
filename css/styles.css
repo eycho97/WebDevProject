@@ -152,9 +152,6 @@ a:hover {
 /* home page */
 
 /* store info page*/
-
-
-
 #shadyinfo {
     width: 50%;
     float: left;
@@ -173,8 +170,13 @@ a:hover {
     width: 50%;
     float: left;
 }
-
 /* store info page*/
+
+/* contact us page*/
+#contactus {
+    width: 70%;
+}
+/* contact us page*/
 footer {
 	clear: both; /* The clear property specifies which side(s) of an element other floating elements are not allowed. */
 	margin: 0;
