@@ -153,39 +153,24 @@ a:hover {
 
 /* store info page*/
 
-#shadyside {
-    width: 85%;
-    margin: auto;
-    border: 1px dotted #ccc;
-}
 
 
-#shadyside h1{
-    float: left ;
-}
-
-#shadyside p{
+#shadyinfo {
+    width: 50%;
     float: left;
 }
-#shadyside iframe{
+#shadymap {
     float: right;
 }
 
-#downtown {
-    width: 85%;
-    margin: auto;
-}
-
-#downtown h1{
-    float: right;
-}
-
-#downtown p{
+#downinfo {
+    width: 50%;
     float: right;
     text-align: right;
 }
 
-#downtown iframe{
+#downmap {
+    width: 50%;
     float: left;
 }
 
