@@ -3,15 +3,13 @@ body {
 	font-size: 100%; /* Generally set the font-size to 100% in the body - you can then change with em in the other areas */
 	line-height: 1.7em; /* The line-height property in CSS controls the space between lines of text. It is often set in a unitless value (e.g. line-height: 1.4; ) */
 	color: #000000;
+    background: #FCF3CF;
 }
 
 a {	
 	text-decoration: none;
 }
 
-a:hover {	
-	text-decoration: underline;
-}
 
 #container {
     width: 70%;
@@ -39,15 +37,21 @@ a:hover {
 
 #navleft {
     position: relative;
-    margin-top: 50px;
     display: inline-block;
+}
+
+#navleft a {
+    color: #00a665;
 }
 
 #navright {
     position: relative;
-    margin-top: 50px;
     display: inline-block;
     left: 11.2%;
+}
+
+#navright a{
+    color: #00a665;
 }
 #top_row nav a{
     padding-left: 13px;
@@ -68,6 +72,8 @@ a:hover {
 	background: #f6f6f6;
 	color: #0F4970;
 }
+
+
 
 /* home page */
 #about {
