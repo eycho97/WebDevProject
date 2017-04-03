@@ -18,9 +18,11 @@ a:hover {
     margin: auto;
 }
 
+#top_row img{
+    margin-right: 1000px;
+}
 #top_row nav{
     color: #00a665;
-    float: left;
     font-size: 150%;
 }
 
@@ -152,23 +154,40 @@ a:hover {
 /* home page */
 
 /* store info page*/
-#shadyinfo {
-    width: 50%;
-    float: left;
+
+#shcontainer{
+    border: 1px dotted grey;
+    padding: 10px;
+    width: 80%;
 }
-#shadymap {
+#shadyinfo{
+    width: 40%;
+    display: inline-block;
+}
+
+
+
+#shadygraph {
+    display: inline-block;
     float: right;
 }
 
+#downcontainer{
+    border: 1px dotted grey;
+    padding: 10px;
+    width: 80%;
+}
+
 #downinfo {
-    width: 50%;
-    float: right;
+    width: 40%;
+    display: inline-block;
     text-align: right;
+    float: right;
 }
 
 #downmap {
     width: 50%;
-    float: left;
+    display: inline-block;
 }
 /* store info page*/
 
