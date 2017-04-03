@@ -18,28 +18,36 @@ a:hover {
     margin: auto;
 }
 
+#top_row {
+    margin-top: -10px;
+    z-index: 3;
+    background-color: white;
+}
 #logo {
     display: inline-block;
-    position: fixed;
-    left: 43.2%;
-    z-index: 2;
+    position: relative;
+    left: 6.2%;
 }
 
 #top_row nav{
     color: #00a665;
     font-size: 150%;
     position: fixed;
+    width: 100%;
+    background-color: white;
 }
 
 #navleft {
-    position: fixed;
+    position: relative;
     margin-top: 50px;
+    display: inline-block;
 }
 
 #navright {
-    position: fixed;
-    left: 60%;
+    position: relative;
     margin-top: 50px;
+    display: inline-block;
+    left: 11.2%;
 }
 #top_row nav a{
     padding-left: 13px;
@@ -67,9 +75,11 @@ a:hover {
     line-height: normal;
     float: left;
     width: 50%;
+    margin-top: 8em;
 }
 
 #slideshow {
+    position: relative;
     margin: auto;
     float: right;
     width: 50%;
@@ -175,7 +185,6 @@ a:hover {
 #shcontainer{
     border: 1px dotted grey;
     padding: 10px;
-    width: 80%;
 }
 #shadyinfo{
     width: 40%;
@@ -192,7 +201,6 @@ a:hover {
 #downcontainer{
     border: 1px dotted grey;
     padding: 10px;
-    width: 80%;
 }
 
 #downinfo {
@@ -211,6 +219,8 @@ a:hover {
 /* contact us page*/
 #contactus {
     width: 70%;
+    margin: auto;
+    margin-top: 7em;
 }
 /* contact us page*/
 footer {
