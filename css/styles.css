@@ -18,14 +18,29 @@ a:hover {
     margin: auto;
 }
 
-#top_row img{
-    margin-right: 1000px;
+#logo {
+    display: inline-block;
+    position: fixed;
+    left: 43.2%;
+    z-index: 2;
 }
+
 #top_row nav{
     color: #00a665;
     font-size: 150%;
+    position: fixed;
 }
 
+#navleft {
+    position: fixed;
+    margin-top: 50px;
+}
+
+#navright {
+    position: fixed;
+    left: 60%;
+    margin-top: 50px;
+}
 #top_row nav a{
     padding-left: 13px;
     padding-right: 13px;
@@ -58,13 +73,15 @@ a:hover {
     margin: auto;
     float: right;
     width: 50%;
+    z-index: -1;
 }
 /*code from w3 schools for slideshow*/
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    z-index: -1;
 }
 
 .mySlides {
