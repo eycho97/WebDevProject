@@ -33,11 +33,14 @@ a {
     position: fixed;
     width: 100%;
     background-color: white;
+    z-index: 3;
+    left: 0px;
 }
 
 #navleft {
     position: relative;
     display: inline-block;
+    margin-left: 15%;
 }
 
 #navleft a {
@@ -89,7 +92,6 @@ a {
     margin: auto;
     float: right;
     width: 50%;
-    z-index: -1;
     margin-top: 7em;
 }
 /*code from w3 schools for slideshow*/
@@ -98,7 +100,6 @@ a {
     max-width: 1000px;
     position: relative;
     margin: auto;
-    z-index: -1;
 }
 
 .mySlides {
@@ -192,6 +193,7 @@ a {
 #shcontainer{
     border: 1px dotted grey;
     padding: 10px;
+    margin-top: 5em;
 }
 #shadyinfo{
     width: 40%;
