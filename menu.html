@@ -12,7 +12,13 @@
     <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/jquery-ui.js"></script>
-    
+    <script>
+    $(function() {
+        $("#tabs").tabs({
+            event: "mouseover"
+        });
+    });
+    </script>
 </head>
 
 <body>
@@ -32,7 +38,7 @@
         </div>
         <div id="navright">
             <a href="info.html">Store Info</a> 
-            <a href="contact.html">Contact Info</a> 
+            <a href="contact.html">Contact</a> 
             <a href="data.html">Data</a>
         </div>  
         </nav>
@@ -40,8 +46,39 @@
     </div>
     
     <div id="menu">
-        
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Breakfast</a></li>
+                <li><a href="#tabs-2">Cookies and Brownies</a></li>
+                <li><a href="#tabs-3">Cakes and Tortes</a></li>
+                <li><a href="#tabs-4">Breakfast</a></li>
+                <li><a href="#tabs-5">Custom Cakes</a></li>
+            </ul>
+
+            <div id="tabs-1">
+                <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. </p>
+            </div>
+
+            <div id="tabs-2">
+                <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. </p>
+            </div>
+
+            <div id="tabs-3">
+                <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potent. </p>
+            </div>
+            
+            <div id="tabs-4">
+                <p>hello darkness my old friend.
+                </p>
+            </div>
+            
+            <div id="tabs-5">
+                <p>hello darkness my old friend.
+                </p>
+            </div>
+        </div>
     </div>
+    
     <footer>
         <div id="social_media">
         <a href ="https://www.facebook.com/PrantlsBakery"><img src="images/facebook.png"></a>

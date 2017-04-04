@@ -12,7 +12,85 @@
     <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://code.highcharts.com/modules/exporting.js"></script>
     
+    <script type="text/javascript">
+
+    $(function() {
+		$('#shady-graph').highcharts({
+		    title: {
+		        text: 'Weekly Workload by Month'
+		    },
+
+		    subtitle: {
+		        text: 'subtitle'
+		    },
+		    xAxis: {
+		        title: {
+		            text: 'Months'
+		        },
+		        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', "Jun", 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', "Dec"]
+		    },
+		    yAxis: {
+		        title: {
+		            text: 'Number of Employees'
+		        }
+		    },
+		    tooltip: {
+		    	valueSuffix: 'hours per week (on average'
+		    },
+		    legend: {
+		        layout: 'vertical',
+		        align: 'right',
+		        verticalAlign: 'middle'
+		    },
+
+		    series: [{
+		        name: '2013',
+		        data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+		    }]
+		});
+	});
+	</script>
+    <script type="text/javascript">
+
+    $(function() {
+		$('#down-graph').highcharts({
+		    title: {
+		        text: 'Weekly Workload by Month'
+		    },
+
+		    subtitle: {
+		        text: 'subtitle'
+		    },
+		    xAxis: {
+		        title: {
+		            text: 'Months'
+		        },
+		        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', "Jun", 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', "Dec"]
+		    },
+		    yAxis: {
+		        title: {
+		            text: 'Number of Employees'
+		        }
+		    },
+		    tooltip: {
+		    	valueSuffix: 'hours per week (on average'
+		    },
+		    legend: {
+		        layout: 'vertical',
+		        align: 'right',
+		        verticalAlign: 'middle'
+		    },
+
+		    series: [{
+		        name: '2013',
+		        data: [3.9, 4.2, 5.7, 8.5, 11.9, 15.2, 17.0, 16.6, 14.2, 10.3, 6.6, 4.8]
+		    }]
+		});
+	});
+	</script>
 </head>
 
 <body>
@@ -54,10 +132,11 @@
             Tuesday – Saturday: 7:30am – 6pm<br>
             Sunday: 9am – 4pm</p>
     </div>
-    <div id="shadygraph">
+    <div id="shadymap">
         <br><br><br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.066369916618!2d-79.93510368456984!3d40.45166797936108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f211a8acdbb5%3A0xdc10f5a40aaa3140!2s5525+Walnut+St%2C+Pittsburgh%2C+PA+15232!5e0!3m2!1sen!2sus!4v1490909351690" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
+    <div id="shady-graph"></div>
     </div>
     
     <div id ="downcontainer">
@@ -78,6 +157,7 @@
         <br><br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.542356955946!2d-80.00426918457013!3d40.44113147936223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f15693c48777%3A0xae63e31d08c0531f!2s438+Market+St%2C+Pittsburgh%2C+PA+15222!5e0!3m2!1sen!2sus!4v1490909539744" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
+    <div id="down-graph"></div>
     </div>
     <footer>
         <div id="social_media">
